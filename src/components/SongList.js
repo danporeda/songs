@@ -1,5 +1,7 @@
+import { connect } from 'react-redux';
+
 function SongList() {
   return <div>SongList</div>
 }
 
-export default SongList;
+export default connect()(SongList);
